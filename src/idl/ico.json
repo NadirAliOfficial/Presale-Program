@@ -1,0 +1,570 @@
+{
+  "address": "6bP8naQHdkrEdkDijFoXgncfkVM6hPrFz5bF14rN935D",
+  "metadata": {
+    "name": "ico",
+    "version": "0.1.0",
+    "spec": "0.1.0",
+    "description": "ICO Presale program for Solana"
+  },
+  "instructions": [
+    {
+      "name": "buy_tokens",
+      "discriminator": [
+        189,
+        21,
+        230,
+        133,
+        247,
+        2,
+        110,
+        42
+      ],
+      "accounts": [
+        {
+          "name": "ico_ata_for_ico_program",
+          "writable": true,
+          "pda": {
+            "seeds": [
+              {
+                "kind": "account",
+                "path": "ico_mint"
+              }
+            ]
+          }
+        },
+        {
+          "name": "ico_pda",
+          "writable": true,
+          "pda": {
+            "seeds": [
+              {
+                "kind": "account",
+                "path": "ico_mint"
+              }
+            ]
+          }
+        },
+        {
+          "name": "data",
+          "writable": true
+        },
+        {
+          "name": "ico_mint"
+        },
+        {
+          "name": "ico_ata_for_user",
+          "writable": true
+        },
+        {
+          "name": "user",
+          "writable": true,
+          "signer": true
+        },
+        {
+          "name": "admin",
+          "writable": true
+        },
+        {
+          "name": "token_program",
+          "address": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"
+        },
+        {
+          "name": "system_program",
+          "address": "11111111111111111111111111111111"
+        }
+      ],
+      "args": [
+        {
+          "name": "_ico_ata_for_ico_program_bump",
+          "type": "u8"
+        },
+        {
+          "name": "token_amount",
+          "type": "u64"
+        }
+      ]
+    },
+    {
+      "name": "buy_tokens_with_usdc",
+      "discriminator": [
+        35,
+        17,
+        114,
+        138,
+        7,
+        52,
+        140,
+        54
+      ],
+      "accounts": [
+        {
+          "name": "ico_ata_for_ico_program",
+          "writable": true,
+          "pda": {
+            "seeds": [
+              {
+                "kind": "account",
+                "path": "ico_mint"
+              }
+            ]
+          }
+        },
+        {
+          "name": "ico_pda",
+          "writable": true,
+          "pda": {
+            "seeds": [
+              {
+                "kind": "account",
+                "path": "ico_mint"
+              }
+            ]
+          }
+        },
+        {
+          "name": "data",
+          "writable": true
+        },
+        {
+          "name": "ico_mint"
+        },
+        {
+          "name": "ico_ata_for_user",
+          "writable": true
+        },
+        {
+          "name": "stablecoin_mint"
+        },
+        {
+          "name": "user_stablecoin_account",
+          "writable": true
+        },
+        {
+          "name": "admin_stablecoin_account",
+          "writable": true
+        },
+        {
+          "name": "user",
+          "writable": true,
+          "signer": true
+        },
+        {
+          "name": "admin",
+          "writable": true
+        },
+        {
+          "name": "token_program",
+          "address": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"
+        },
+        {
+          "name": "associated_token_program",
+          "address": "ATokenGPvbdGVxr1b2hvZbsiqW5xWH25efTNsLJA8knL"
+        },
+        {
+          "name": "system_program",
+          "address": "11111111111111111111111111111111"
+        },
+        {
+          "name": "rent",
+          "address": "SysvarRent111111111111111111111111111111111"
+        }
+      ],
+      "args": [
+        {
+          "name": "_ico_ata_for_ico_program_bump",
+          "type": "u8"
+        },
+        {
+          "name": "token_amount",
+          "type": "u64"
+        }
+      ]
+    },
+    {
+      "name": "buy_tokens_with_usdt",
+      "discriminator": [
+        2,
+        231,
+        228,
+        149,
+        49,
+        235,
+        246,
+        158
+      ],
+      "accounts": [
+        {
+          "name": "ico_ata_for_ico_program",
+          "writable": true,
+          "pda": {
+            "seeds": [
+              {
+                "kind": "account",
+                "path": "ico_mint"
+              }
+            ]
+          }
+        },
+        {
+          "name": "ico_pda",
+          "writable": true,
+          "pda": {
+            "seeds": [
+              {
+                "kind": "account",
+                "path": "ico_mint"
+              }
+            ]
+          }
+        },
+        {
+          "name": "data",
+          "writable": true
+        },
+        {
+          "name": "ico_mint"
+        },
+        {
+          "name": "ico_ata_for_user",
+          "writable": true
+        },
+        {
+          "name": "stablecoin_mint"
+        },
+        {
+          "name": "user_stablecoin_account",
+          "writable": true
+        },
+        {
+          "name": "admin_stablecoin_account",
+          "writable": true
+        },
+        {
+          "name": "user",
+          "writable": true,
+          "signer": true
+        },
+        {
+          "name": "admin",
+          "writable": true
+        },
+        {
+          "name": "token_program",
+          "address": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"
+        },
+        {
+          "name": "associated_token_program",
+          "address": "ATokenGPvbdGVxr1b2hvZbsiqW5xWH25efTNsLJA8knL"
+        },
+        {
+          "name": "system_program",
+          "address": "11111111111111111111111111111111"
+        },
+        {
+          "name": "rent",
+          "address": "SysvarRent111111111111111111111111111111111"
+        }
+      ],
+      "args": [
+        {
+          "name": "_ico_ata_for_ico_program_bump",
+          "type": "u8"
+        },
+        {
+          "name": "token_amount",
+          "type": "u64"
+        }
+      ]
+    },
+    {
+      "name": "create_ico_ata",
+      "discriminator": [
+        66,
+        83,
+        250,
+        92,
+        218,
+        161,
+        143,
+        223
+      ],
+      "accounts": [
+        {
+          "name": "ico_ata_for_ico_program",
+          "writable": true,
+          "pda": {
+            "seeds": [
+              {
+                "kind": "account",
+                "path": "ico_mint"
+              }
+            ]
+          }
+        },
+        {
+          "name": "ico_pda",
+          "pda": {
+            "seeds": [
+              {
+                "kind": "account",
+                "path": "ico_mint"
+              }
+            ]
+          }
+        },
+        {
+          "name": "data",
+          "writable": true,
+          "pda": {
+            "seeds": [
+              {
+                "kind": "const",
+                "value": [
+                  100,
+                  97,
+                  116,
+                  97
+                ]
+              },
+              {
+                "kind": "account",
+                "path": "admin"
+              }
+            ]
+          }
+        },
+        {
+          "name": "ico_ata_for_admin",
+          "writable": true
+        },
+        {
+          "name": "ico_mint"
+        },
+        {
+          "name": "admin",
+          "writable": true,
+          "signer": true
+        },
+        {
+          "name": "system_program",
+          "address": "11111111111111111111111111111111"
+        },
+        {
+          "name": "token_program",
+          "address": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"
+        },
+        {
+          "name": "rent",
+          "address": "SysvarRent111111111111111111111111111111111"
+        }
+      ],
+      "args": [
+        {
+          "name": "ico_amount",
+          "type": "u64"
+        },
+        {
+          "name": "bump",
+          "type": "u8"
+        }
+      ]
+    },
+    {
+      "name": "deposit_ico_in_ata",
+      "discriminator": [
+        48,
+        0,
+        248,
+        161,
+        100,
+        149,
+        210,
+        57
+      ],
+      "accounts": [
+        {
+          "name": "ico_ata_for_ico_program",
+          "writable": true
+        },
+        {
+          "name": "data",
+          "writable": true
+        },
+        {
+          "name": "ico_mint"
+        },
+        {
+          "name": "ico_ata_for_admin",
+          "writable": true
+        },
+        {
+          "name": "admin",
+          "writable": true,
+          "signer": true,
+          "relations": [
+            "data"
+          ]
+        },
+        {
+          "name": "token_program",
+          "address": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"
+        }
+      ],
+      "args": [
+        {
+          "name": "ico_amount",
+          "type": "u64"
+        }
+      ]
+    }
+  ],
+  "accounts": [
+    {
+      "name": "Data",
+      "discriminator": [
+        206,
+        156,
+        59,
+        188,
+        18,
+        79,
+        240,
+        232
+      ]
+    }
+  ],
+  "events": [
+    {
+      "name": "IcoInitialized",
+      "discriminator": [
+        240,
+        69,
+        223,
+        127,
+        102,
+        14,
+        220,
+        140
+      ]
+    },
+    {
+      "name": "TokensPurchased",
+      "discriminator": [
+        214,
+        119,
+        105,
+        186,
+        114,
+        205,
+        228,
+        181
+      ]
+    }
+  ],
+  "errors": [
+    {
+      "code": 6000,
+      "name": "Overflow",
+      "msg": "Arithmetic overflow"
+    },
+    {
+      "code": 6001,
+      "name": "InvalidAdmin",
+      "msg": "Invalid admin"
+    },
+    {
+      "code": 6002,
+      "name": "AlreadyInitialized",
+      "msg": "ICO already initialized"
+    },
+    {
+      "code": 6003,
+      "name": "InsufficientTokens",
+      "msg": "Not enough tokens remaining"
+    },
+    {
+      "code": 6004,
+      "name": "VaultBalanceTooLow",
+      "msg": "Token vault does not hold enough tokens"
+    },
+    {
+      "code": 6005,
+      "name": "InvalidStablecoinMint",
+      "msg": "Invalid stablecoin mint"
+    }
+  ],
+  "types": [
+    {
+      "name": "Data",
+      "type": {
+        "kind": "struct",
+        "fields": [
+          {
+            "name": "admin",
+            "type": "pubkey"
+          },
+          {
+            "name": "total_tokens",
+            "type": "u64"
+          },
+          {
+            "name": "tokens_sold",
+            "type": "u64"
+          },
+          {
+            "name": "is_initialized",
+            "type": "bool"
+          },
+          {
+            "name": "sol_raised",
+            "type": "u64"
+          },
+          {
+            "name": "usdc_raised",
+            "type": "u64"
+          },
+          {
+            "name": "usdt_raised",
+            "type": "u64"
+          }
+        ]
+      }
+    },
+    {
+      "name": "IcoInitialized",
+      "type": {
+        "kind": "struct",
+        "fields": [
+          {
+            "name": "admin",
+            "type": "pubkey"
+          },
+          {
+            "name": "total_tokens",
+            "type": "u64"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TokensPurchased",
+      "type": {
+        "kind": "struct",
+        "fields": [
+          {
+            "name": "buyer",
+            "type": "pubkey"
+          },
+          {
+            "name": "amount",
+            "type": "u64"
+          },
+          {
+            "name": "payment_type",
+            "type": "string"
+          }
+        ]
+      }
+    }
+  ]
+}

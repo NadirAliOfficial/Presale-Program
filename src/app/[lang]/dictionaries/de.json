@@ -1,0 +1,127 @@
+{
+  "nav": {
+    "home": "STARTSEITE",
+    "technology": "TECHNOLOGIE",
+    "revolution": "REVOLUTION",
+    "addingDoing": "HINZUFÜGEN MACHEN",
+    "investment": "INVESTITION",
+    "whitepaper": "WEISSBUCH",
+    "buyNow": "Jetzt Kaufen"
+  },
+  "adddoing": {
+    "mainHeading": "Ihr aktiver Beitrag zu Gesundheit und Bildung",
+    "description": "WellFit geht über Theorie hinaus: Unser \"learning by doing\"-Ansatz bietet Ihnen interaktive Erfahrungen, die Ihre Gesundheit, Fitness und Fähigkeiten direkt verbessern. Ob in Parks, Museen, Zoos oder zu Hause – mit WellFit können Sie Ihre Aktivitäten verfolgen, personalisiertes Feedback erhalten und kontinuierlich lernen und wachsen.",
+    "vision": "Unsere Vision ist es, Technologie, Gesundheit und Bildung überall zugänglich zu machen – egal, wo Sie sich befinden.",
+    "museum": "Museen",
+    "museumDescription": "Erleben Sie die faszinierende Fusion von Technologie, Kunst und Geschichte durch eine einzigartige interaktive Reise.",
+    "parks": "Parks & Wanderwege",
+    "parksDescription": "Bei jedem Ausflug erweitern Sie Ihr Wissen über unsere wunderbare \"Mutter Natur\".",
+    "home": "Zu Hause",
+    "homeDescription": "Nutzen Sie personalisierte Anwendungen, um Ihre Fitness und Ihr Wissen bequem von zu Hause aus zu optimieren.",
+    "zoos": "Zoos",
+    "zoosDescription": "WellFit wird Ihr Verständnis für eine Vielzahl von Tierarten vertiefen."
+  },
+  "footer": {
+    "newsletterTitle": "Newsletter Anmeldung",
+    "newsletterDescription": "Bleiben Sie informiert über die kommenden Phasen von WellFit und die Veröffentlichung unserer Whitepapers!",
+    "emailPlaceholder": "Geben Sie Ihre E-Mail-Adresse ein...",
+    "subscribeButton": "Abonnieren",
+    "copyright": "Copyright © 2024 Alle Rechte vorbehalten"
+  },
+    "contribution": {
+      "title": "Ihr Beitrag zu einer besseren Zukunft",
+      "text1": "Mit Ihrer Teilnahme an der ersten Phase unseres Vorverkaufs legen Sie einen Grundstein für die Zukunft von WellFit – und darüber hinaus. Ihre Investition ist mehr als nur finanzielle Unterstützung: Sie sichert das Patent für unsere bahnbrechende Technologie und ermöglicht es uns, die Vision von WellFit in die Realität umzusetzen.",
+      "text2": "Durch den Erwerb von WellFit-Tokens werden Sie Teil einer Bewegung, die die Grenzen von Gesundheit, Bildung und Technologie neu definiert. Sie helfen uns, Innovationen zu schützen, die Lebensqualität zu verbessern und eine Plattform zu schaffen, die Menschen weltweit inspiriert.",
+      "text3": "Ihr Beitrag macht einen Unterschied.",
+      "text4": "Sie werden nicht nur eine Revolution in Gesundheit und Technologie miterleben – Sie werden sie aktiv mitgestalten. Gemeinsam bauen wir eine Welt, in der Wellness und Wissen Hand in Hand gehen. Schließen Sie sich uns an, während WellFit die Welt voranbringt.",
+      "text5": "Ihr Engagement zählt.",
+      "text6": "Ihre Entscheidung treibt uns alle zu einer besseren Zukunft."
+    },
+    "hero": {
+    "title": "Entdecken Sie die Zukunft von Technologie, Gesundheit und Bildung",
+    "description": "Eine revolutionäre Plattform, die Sie belohnt, während sie Ihre Gesundheit und Ihr Wissen fördert",
+    "button": "Los Geht&apos;s"
+  },
+    "insight": {
+      "title": "Ein exklusiver Einblick",
+      "logoAlt": "WellFit-Logo",
+      "text1": "Es gibt seltene Momente, in denen Chancen entstehen, die das Potenzial haben, unser Leben tiefgreifend zu verändern —",
+      "wellfit": "WellFit",
+      "isChance": "ist genau so eine Chance. Unsere Vision ist nicht nur ehrgeizig; sie ist revolutionär: Wir wollen",
+      "health": "Gesundheit",
+      "technology": "Technologie",
+      "education": "Bildung",
+      "transformative": "auf eine völlig neue und transformative Weise verbinden.",
+      "text2": "Stellen Sie sich vor, Sie nutzen hochmoderne Technologien — von",
+      "ai": "Künstlicher Intelligenz",
+      "ar": "Erweiterter Realität",
+      "enhance": "— die nicht nur unser Wissen erweitern, sondern auch unser Wohlbefinden erheblich steigern.",
+      "movement": "ist mehr als nur ein Projekt; es ist eine Bewegung, die neu definiert, wie wir lernen, uns bewegen und miteinander interagieren.",
+      "text3": "Mit einem",
+      "holistic": "ganzheitlichen Ansatz",
+      "aspire": "streben wir danach, das tägliche Leben der Menschen zu bereichern, sie zu motivieren, ihre Ziele zu erreichen",
+      "goals": "ihre Ziele zu erreichen, gesünder zu leben und den Prozess zu genießen.",
+      "interactive": "Wir konzentrieren uns auf",
+      "interactiveExperiences": "interaktive Erlebnisse",
+      "innovation": "die Innovation und",
+      "sustainability": "Nachhaltigkeit verbinden",
+      "positiveChange": "und eine Plattform schaffen, die nicht nur inspiriert, sondern auch positive Veränderungen weltweit vorantreibt.",
+      "text4": "Dies ist mehr als eine Idee — es ist der Beginn einer neuen Ära.",
+      "imageAlt": "Zukunftsweisender Einblick"
+    },
+    "joinpresale": {
+    "headline1": "Verpasse nicht deine Chance",
+    "highlight": "werde Teil von WellFit",
+    "headline2": "und gestalte aktiv die Zukunft!",
+    "buttonText": "Jetzt an der Pre-Sale teilnehmen",
+    "imageAlt": "Illustration einer WellFit-Promotion"
+  },
+    "shaping": {
+      "imageAlt": "Shaping - WellFit",
+      "logoAlt": "WellFit Logo",
+      "title": "Die Zukunft gemeinsam gestalten",
+      "wellfit": "WellFit",
+      "intro": "ist nicht nur eine Investition – es ist dein persönlicher Beitrag, um die Welt gesünder, vernetzter und innovativer zu machen. Mit unserer Vision wollen wir Gesundheit, Bildung und Technologie auf einzigartige Weise kombinieren und überall zugänglich machen: in Museen, Zoos, der Natur oder direkt in deinem Zuhause. Gemeinsam bauen wir eine Plattform, die weltweit nachhaltig inspiriert und aktiv Veränderungen vorantreibt.",
+      "together": "Gemeinsam schaffen wir eine Plattform, die weltweit nachhaltig inspiriert und aktiv Veränderungen vorantreibt.",
+      "support": "Deine Unterstützung wird zu einem wertvollen Erbe.",
+      "investment": "Mit einer Investition ab",
+      "partOf": "wirst du Teil von etwas wirklich Einzigartigem und erhältst ein streng limitiertes physisches",
+      "token": "WellFit-Token",
+      "complementedBy": "Dies wird durch ein digitales NFT ergänzt, das dir exklusive Rechte und Vorteile gewährt.",
+      "votingRights": "Stimmrechte:",
+      "votingDesc": "Beeinflusse die Entwicklung unserer Plattform mit exklusiven Stimmrechten.",
+      "priorityAccess": "Vorrangiger Zugang:",
+      "priorityDesc": "Erhalte frühen Zugang zur Beta-Phase und genieße exklusive Funktionen, die einer ausgewählten Gruppe von Unterstützern vorbehalten sind.",
+      "symbol": "Ein Symbol des Beitrags:",
+      "symbolDesc": "Dein physisches WellFit-Token dient als Sammlerstück und als Zeugnis deines Engagements in einer globalen Bewegung."
+    },
+      "revolution": {
+        "imageAlt": "Frühzeitige Unterstützer beitreten",
+        "logoAlt": "WellFit Logo",
+        "title": "Sei von Anfang an Teil der Revolution",
+        "intro": "Wir stehen gerade an einem Wendepunkt, an dem Technologie, Innovation und Gesundheit kombiniert werden. Nach unserem Vorverkauf werden wir unser Patent anmelden, um die Exklusivität unserer Vision zu schützen und zu sichern. Sei Teil unserer langfristigen WellFit-Innovation. Werde einer der ersten WellFit-Teilnehmer und profitiere von exklusiven Vorteilen und sicheren deinem Platz in den neuen weltweiten Standards.",
+        "investmentOpportunity": "Kürzlich haben wir eine rentable Investitionsmöglichkeit abgelehnt, die uns 50 % der Anteile gekostet hätte. Warum? Weil wir an unsere Vision glauben und sie nicht für kurzfristige Gewinne opfern wollen. Deine Investition wird uns helfen, unsere langfristigen Ziele zu erreichen und WellFit in den Händen derer zu halten, die an nachhaltige Veränderungen glauben – wie du.",
+        "exclusiveAccess": "Exklusiver Zugang durch Vorab-Buchung",
+        "earlyParticipation": "Frühzeitige Teilnahme bringt besondere Vorteile",
+        "support": "Deine Unterstützung hilft, unsere Werte und Vision zu schützen",
+        "button": "WellFit jetzt"
+      },
+      "presale": {
+    "title": "Kaufe, bevor der Preis steigt!",
+    "countdownText": "BIS ZUM NÄCHSTEN PREISANSTIEG",
+    "wftPriceLabel": "1 $WFT:",
+    "currentPriceLabel": "Aktueller Preis:",
+    "afterPriceLabel": "Nach dem Preis:",
+    "raisedLabel": "Über 473177 $/600000 $ USD gesammelt!",
+    "buyNow": "Kaufe jetzt $WFT",
+    "payWith": "Bezahle mit",
+    "receive": "Erhalte $Well Fit",
+    "walletConnected": "Wallet verbunden",
+    "connectWallet": "Wallet verbinden",
+    "buyNowButton": "Jetzt kaufen",
+    "howToBuy": "Wie kauft man?",
+    "clickHere": "(Klicke hier)",
+    "footerText": "Dein TMT Token Vorverkauf"
+  }
+    
+}
