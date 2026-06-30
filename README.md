@@ -22,5 +22,3 @@ anchor deploy --provider.cluster devnet
 ## License
 MIT
 <!-- updated: 2025-12-09-r01 -->
-
-
